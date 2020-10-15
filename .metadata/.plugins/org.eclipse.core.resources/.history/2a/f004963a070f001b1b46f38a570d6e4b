@@ -37,15 +37,15 @@ abstract class Employe {
 	public double prime() {
 		double p = 0;
 		LocalDate lt = LocalDate.now();
-		// debug//System.out.println("LocalDate : " + lt);
+		System.out.println("LocalDate : " + lt);
 		if (lt.compareTo(dEmbauche) >= 5) {
-			// debug//System.out.println("plus de 5 ans");
+			System.out.println("plus de 5 ans");
 			p = 1.7;
 		} else if (lt.compareTo(dEmbauche) >= 2) {
-			// debug//System.out.println("plus de 2 ans");
+			System.out.println("plus de 2 ans");
 			p = 1.2;
 		} else if (lt.compareTo(dEmbauche) < 2) {
-			// debug//System.out.println("moins de 2 ans");
+			System.out.println("moins de 2 ans");
 			p = 1;
 		}
 		return p;

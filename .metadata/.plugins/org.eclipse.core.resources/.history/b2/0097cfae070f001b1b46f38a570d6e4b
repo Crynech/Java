@@ -20,7 +20,5 @@ public class Main {
 		}
 		System.out.println("Le salaire total de l'entreprise est : " + salaireTotal);
 		System.out.println("Le salaire moyen dans l'entreprise est : " + salaireTotal / liste.size());
-		
-		
 	}
 }

@@ -8,7 +8,7 @@ public class Main {
 		System.out.println(e + "\n");
 
 		ChargeDeProd c = new ChargeDeProd("Duval", "Toto", "07.18.20.12.12", "02-11-1998", "10-05-2020", 500);
-		System.out.println(c + "\n");
+		System.out.println(c);
 
 		ArrayList<Employe> liste = new ArrayList<>();
 		liste.add((Employe) e);
@@ -20,7 +20,5 @@ public class Main {
 		}
 		System.out.println("Le salaire total de l'entreprise est : " + salaireTotal);
 		System.out.println("Le salaire moyen dans l'entreprise est : " + salaireTotal / liste.size());
-		
-		
 	}
 }
