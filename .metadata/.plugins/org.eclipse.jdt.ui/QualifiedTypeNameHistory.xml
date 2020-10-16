@@ -3,4 +3,7 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="ChargeDeProd"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="CollectiviteLocale"/>
+    <fullyQualifiedTypeName name="CommunautesCommunes"/>
+    <fullyQualifiedTypeName name="CommunauteAglomeration"/>
 </qualifiedTypeNameHistroy>
